@@ -1,0 +1,47 @@
+/* ......Navbar...... */
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  .navbar a:last-child {
+    margin-right: 0;
+  }
+  .navbar-links {
+    display: flex;
+  }
+  .navbar-auth a {
+    padding: 0.5rem 1rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+  }
+  .navbar-auth a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+  /* .....button..... */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .button-container button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+  }
+  .button-container button:hover {
+    background-color: #444;
+  }

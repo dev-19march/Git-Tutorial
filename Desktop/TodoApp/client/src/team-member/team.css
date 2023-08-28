@@ -1,0 +1,29 @@
+.team-member-form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.member-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.left-button {
+  order: 1;
+}
+
+.right-buttons {
+  order: 2;
+  display: flex;
+}
+
+.right-buttons .right-buttons button:nth-child(3) {
+  margin-left: 5px;
+  margin-right: 5px;
+}

@@ -1,0 +1,93 @@
+
+form {
+    background-color: #fff;
+    width: 450px;
+    margin-top: 80px;
+    padding: 2rem;
+    border-radius: 20px;
+    border-left: 4px solid #000;
+    border-bottom: 7px solid #000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .login1{
+    border-radius: 20px;
+   margin-bottom: 15px;
+   margin-left: 115px;
+}
+  .user-box {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  .user-box input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+  }
+  .label-class {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.2s ease all;
+  }
+  input:focus + label,
+  input:valid + label {
+    transform: translateY(-100%);
+    font-size: 12px;
+    color: #333;
+  }
+  .check-box {
+    display: block;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  .check-box input {
+    margin-right: 1rem;
+  }
+  button {
+    background-color: #333;
+    color: #fff;
+    font-weight: 10px;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+  }
+  .login-signup-button {
+    width: 50%;
+    height: 50px;
+    color: rgb(206, 189, 189);
+    
+    border: 1px solid white;
+    background-color: rgb(22, 19, 19);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  
+    margin-left: 100px;
+    cursor: pointer;
+  }
+  .login-signup-button:hover {
+    background-color: #2f3235;
+  }
